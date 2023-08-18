@@ -21,7 +21,8 @@ See screenshot below:
 * Notebook use to run predictions from served KServe model: Demo_Request_Prediction.ipynb
 
 # Running the notebook
-[ToDo]
+* Run all the cells before hand, some cells will take >5 min because one of the cells trains a FasterRCNN model inside the notebook, and another cell trains a model using MLDE.
+* Walk through the demo cell by cell to demonstrate MLDE and MLDM
 
 # Note:
 The pachyderm train.py and container will check if there have been previous experiments ran:
