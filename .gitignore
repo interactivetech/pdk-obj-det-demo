@@ -39,12 +39,12 @@ MANIFEST
 *.spec
 
 # files
-data/
 checkpoints/
 gitignore.txt
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
+pdk-use-cases-dev/
 
 # Unit test / coverage reports
 htmlcov/

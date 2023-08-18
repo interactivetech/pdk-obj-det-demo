@@ -1,10 +1,14 @@
 # pdk-obj-det-deom
 Demo running End to End MLOPS using Determined, Pachyderm, and Kserve. Demo runs Object Detection on Xview Dataset
-# Setup and install
-* Create Jupyterlab instance on MLDS cluster, and use docker container: mendeza/breck:nb_0.0.4
+# Step 1: Prepare Environment 
+* Create Jupyterlab instance on MLDS cluster, and use docker container: `mendeza/breck:nb_0.0.4`
+
+See screenshot below:
 
 <img src="./img/jupyterlab-change.png" alt="JupyterLab">
 
+# Step 2: Setup and install
+* Open Terminal
 * `git clone https://github.com/interactivetech/pdk-obj-det-demo.git`
 * `cd pdk-obj-det-demo/`
 * `git clone http://github.com/interactivetech/pdk-use-cases-dev.git`
