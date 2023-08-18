@@ -39,6 +39,7 @@ MANIFEST
 *.spec
 
 # files
+data_downloaded/
 checkpoints/
 gitignore.txt
 # Installer logs
