@@ -1,4 +1,4 @@
-# pdk-obj-det-deom
+# pdk-obj-det-demo
 Demo running End to End MLOPS using Determined, Pachyderm, and Kserve. Demo runs Object Detection on Xview Dataset
 # Step 1: Prepare Environment 
 * Create Jupyterlab instance on MLDS cluster with resource pool T4 or A100
