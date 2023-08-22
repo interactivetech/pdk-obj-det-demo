@@ -17,8 +17,6 @@ from torch.optim.lr_scheduler import MultiStepLR
 from utils.data import build_dataset,build_xview_dataset, unwrap_collate_fn, build_xview_dataset_filtered
 from utils.model import build_frcnn_model,build_frcnn_model_finetune, finetune_ssd300_vgg16, finetune_ssdlite320_mobilenet_v3_large, create_resnet152_fasterrcnn_model, create_efficientnet_b4_fasterrcnn_model, create_convnext_large_fasterrcnn_model, create_convnext_small_fasterrcnn_model, resnet152_fpn_fasterrcnn
 from utils.pach_download import download_full_pach_repo
-# from utils.model import get_mv3_fcos_fpn, get_resnet_fcos, get_mobileone_s4_fpn_fcos
-# from model_mobileone import get_mobileone_s4_fpn_fcos
 from lr_schedulers import WarmupWrapper
 import os
 import numpy as np
@@ -29,14 +27,6 @@ from determined.pytorch import (
     PyTorchTrialContext,
     MetricReducer,
 )
-# from coco_eval import CocoEvaluator
-
-# def unwrap_collate_fn(batch):
-#     batch = list(zip(*batch))
-#     batch[0] = nested_tensor_from_tensor_list(batch[0])
-#     batch[0] = {"tensors": batch[0].tensors, "mask": batch[0].mask}
-#     return tuple(batch)
-
 
 TorchData = Union[Dict[str, torch.Tensor], Sequence[torch.Tensor], torch.Tensor]
 
@@ -47,8 +37,7 @@ def convert_to_coco_api(ds):
     dataset = {"images": [], "categories": [], "annotations": []}
     categories = set()
     for img_idx in range(len(ds)):
-        # find better way to get target
-        # targets = ds.get_annotations(img_idx)
+
         img, targets = ds[img_idx]
         image_id = targets["image_id"].item()
         img_dict = {}
@@ -159,25 +148,27 @@ class ObjectDetectionTrial(PyTorchTrial):
         self.hparams = AttrDict(self.context.get_hparams())
         print(self.hparams) 
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-        print("Download Dataset from Pachyderm...")
+        # print("Download Dataset from Pachyderm...")
         self.download_directory = (
             f"/tmp/data-rank{self.context.distributed.get_rank()}"
         )
-        data_config = self.context.get_data_config()
-        if len(data_config.keys()) > 0: 
-            data_dir = self.download_data()
+        # data_dir = self.download_data()
         # define model
         print("self.hparams[model]: ",self.hparams['model'] )
         if self.hparams['model'] == 'fasterrcnn_resnet50_fpn':
-            model = build_frcnn_model_finetune(3,ckpt=self.hparams['pretrained_model'])
-
+            model = build_frcnn_model_finetune(3)
         model = torch.nn.SyncBatchNorm.convert_sync_batchnorm(model)
         print("Converted all BatchNorm*D layers in the model to torch.nn.SyncBatchNorm layers.")
+
+
+
         if self.hparams['finetune_ckpt'] != None:
             checkpoint = torch.load(self.hparams['finetune_ckpt'], map_location='cpu')
+
+        if self.hparams['finetune_ckpt'] != None:
             model.load_state_dict(checkpoint['model'])
         # wrap model
-        
+
         self.model = self.context.wrap_model(model)
 
         # wrap optimizer
@@ -189,18 +180,7 @@ class ObjectDetectionTrial(PyTorchTrial):
         )
 
         self.optimizer = self.context.wrap_optimizer(optimizer)
-        # self.model, self.optimizer = self.context.configure_apex_amp(self.model, self.optimizer, min_loss_scale=self.hparam("min_loss_scale"))
-        # self.model, self.optimizer = self.context.configure_apex_amp(self.model, self.optimizer)
 
-        # Wrap LR Scheduler
-        # 16 epochs: 16*59143 == 118,272
-        # 22 epochs: 22*59143 == 162,624
-        # total iterations (or records): 26*59143 == 192,192
-        # lr_scheduler = torch.optim.lr_scheduler.MultiStepLR(self.optimizer,
-        #                                                     milestones=[16,22],
-        #                                                     gamma=self.hparams.gamma)
-        # self.lr_scheduler = self.context.wrap_lr_scheduler(lr_scheduler,
-        #                                                    step_mode=LRScheduler.StepMode.STEP_EVERY_EPOCH)
         scheduler_cls = WarmupWrapper(MultiStepLR)
         print("self.hparams[warmup]:",self.hparams["warmup"])
         print("self.hparams[warmup_iters]:",self.hparams["warmup_iters"])
@@ -219,33 +199,26 @@ class ObjectDetectionTrial(PyTorchTrial):
             scheduler, step_mode=LRScheduler.StepMode.MANUAL_STEP
         )
     def download_data(self):
-        data_config = self.context.get_data_config()
-        if len(data_config.keys()) > 0: 
-            data_dir = os.path.join(self.download_directory, "data")
-        else:
-            data_dir = self.hparams['data_dir']
-        if data_config is not None:
-            data_dir = download_full_pach_repo(
-                data_config["pachyderm"]["host"],
-                data_config["pachyderm"]["port"],
-                data_config["pachyderm"]["repo"],
-                data_config["pachyderm"]["branch"],
-                data_dir,
-                data_config["pachyderm"]["token"],
-                data_config["pachyderm"]["project"],
-                data_config["pachyderm"]["previous_commit"],
-            )
-            print(f"Data dir set to : {data_dir}")
+        # data_config = self.context.get_data_config()
+        
+        data_dir = os.path.join(self.download_directory, "data")
+
+        data_dir = download_full_pach_repo(
+            data_config["pachyderm"]["host"],
+            data_config["pachyderm"]["port"],
+            data_config["pachyderm"]["repo"],
+            data_config["pachyderm"]["branch"],
+            data_dir,
+            data_config["pachyderm"]["token"],
+            data_config["pachyderm"]["project"],
+            data_config["pachyderm"]["previous_commit"],
+        )
+        print(f"Data dir set to : {data_dir}")
 
         return data_dir
     def build_training_data_loader(self) -> DataLoader:
         # TRAIN_DATA_DIR='determined-ai-xview-coco-dataset/train_sliced_no_neg/train_images_300_02/'
-        data_config = self.context.get_data_config()
-        print("data_config: ",data_config)
-        if len(data_config.keys()) > 0: 
-            data_dir = os.path.join(self.download_directory, "data")
-        else:
-            data_dir = self.hparams['data_dir']
+        data_dir = self.hparams['data_dir']
         dataset, num_classes = build_xview_dataset_filtered(image_set='train',args=AttrDict({
                                                 'data_dir':data_dir,
                                                 'backend':'local',
@@ -275,11 +248,7 @@ class ObjectDetectionTrial(PyTorchTrial):
     def build_validation_data_loader(self) -> DataLoader:
         # VAL_DATA_DIR='determined-ai-xview-coco-dataset/val_sliced_no_neg/val_images_300_02/'
         # print("self.hparams.data_dir: ",self.hparams.data_dir)
-        data_config = self.context.get_data_config()
-        if len(data_config.keys())> 0: 
-            data_dir = os.path.join(self.download_directory, "data")
-        else:
-            data_dir = self.hparams['data_dir']
+        data_dir = self.hparams['data_dir']
         dataset_test, _ = build_xview_dataset_filtered(image_set='val',args=AttrDict({
                                                 'data_dir':data_dir,
                                                 'backend':'local',
