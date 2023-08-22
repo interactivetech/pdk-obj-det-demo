@@ -1,1 +1,2410 @@
-{"images": [{"height": 640, "width": 640, "id": 1, "file_name": "1165_0_2048_640_2688.jpg"}, {"height": 640, "width": 640, "id": 2, "file_name": "1165_0_2251_640_2891.jpg"}, {"height": 640, "width": 640, "id": 3, "file_name": "1154_0_0_640_640.jpg"}, {"height": 640, "width": 640, "id": 4, "file_name": "2498_512_512_1152_1152.jpg"}, {"height": 640, "width": 640, "id": 5, "file_name": "1154_1536_0_2176_640.jpg"}, {"height": 640, "width": 640, "id": 6, "file_name": "1154_2048_0_2688_640.jpg"}, {"height": 640, "width": 640, "id": 7, "file_name": "2498_512_1024_1152_1664.jpg"}, {"height": 640, "width": 640, "id": 8, "file_name": "1154_0_512_640_1152.jpg"}, {"height": 640, "width": 640, "id": 9, "file_name": "1154_512_512_1152_1152.jpg"}, {"height": 640, "width": 640, "id": 10, "file_name": "1154_1536_512_2176_1152.jpg"}, {"height": 640, "width": 640, "id": 11, "file_name": "1154_2048_512_2688_1152.jpg"}, {"height": 640, "width": 640, "id": 12, "file_name": "1154_512_1024_1152_1664.jpg"}, {"height": 640, "width": 640, "id": 13, "file_name": "1154_1024_1024_1664_1664.jpg"}, {"height": 640, "width": 640, "id": 14, "file_name": "1154_1536_1024_2176_1664.jpg"}, {"height": 640, "width": 640, "id": 15, "file_name": "2341_0_1024_640_1664.jpg"}, {"height": 640, "width": 640, "id": 16, "file_name": "2341_512_1024_1152_1664.jpg"}, {"height": 640, "width": 640, "id": 17, "file_name": "2341_1536_1024_2176_1664.jpg"}, {"height": 640, "width": 640, "id": 18, "file_name": "2341_2048_1024_2688_1664.jpg"}, {"height": 640, "width": 640, "id": 19, "file_name": "2341_2560_1024_3200_1664.jpg"}, {"height": 640, "width": 640, "id": 20, "file_name": "2341_0_1536_640_2176.jpg"}, {"height": 640, "width": 640, "id": 21, "file_name": "2341_512_1536_1152_2176.jpg"}, {"height": 640, "width": 640, "id": 22, "file_name": "2341_1536_1536_2176_2176.jpg"}, {"height": 640, "width": 640, "id": 23, "file_name": "2341_2048_1536_2688_2176.jpg"}, {"height": 640, "width": 640, "id": 24, "file_name": "2341_2560_1536_3200_2176.jpg"}, {"height": 640, "width": 640, "id": 25, "file_name": "2341_2836_1536_3476_2176.jpg"}, {"height": 640, "width": 640, "id": 26, "file_name": "2341_2048_2048_2688_2688.jpg"}, {"height": 640, "width": 640, "id": 27, "file_name": "2341_2560_2048_3200_2688.jpg"}, {"height": 640, "width": 640, "id": 28, "file_name": "2341_2836_2048_3476_2688.jpg"}, {"height": 640, "width": 640, "id": 29, "file_name": "2315_512_0_1152_640.jpg"}, {"height": 640, "width": 640, "id": 30, "file_name": "2315_1024_0_1664_640.jpg"}, {"height": 640, "width": 640, "id": 31, "file_name": "2315_1024_512_1664_1152.jpg"}, {"height": 640, "width": 640, "id": 32, "file_name": "2315_1536_512_2176_1152.jpg"}], "annotations": [{"iscrowd": 0, "image_id": 1, "bbox": [139.0, 126.0, 120.0, 123.0], "segmentation": [[139, 126, 139, 249, 259, 249, 259, 126]], "category_id": 2, "id": 1, "area": 14760}, {"iscrowd": 0, "image_id": 2, "bbox": [139.0, 0.0, 120.0, 46.0], "segmentation": [[139, 46, 259, 46, 259, 0, 139, 0]], "category_id": 2, "id": 2, "area": 5520}, {"iscrowd": 0, "image_id": 3, "bbox": [205.0, 304.0, 28.0, 42.0], "segmentation": [[205, 304, 205, 346, 233, 346, 233, 304]], "category_id": 1, "id": 3, "area": 1176}, {"iscrowd": 0, "image_id": 3, "bbox": [202.0, 379.0, 14.0, 42.0], "segmentation": [[202, 379, 202, 421, 216, 421, 216, 379]], "category_id": 1, "id": 4, "area": 588}, {"iscrowd": 0, "image_id": 4, "bbox": [320.0, 543.0, 154.0, 97.0], "segmentation": [[474, 543, 320, 543, 320, 640, 474, 640]], "category_id": 2, "id": 5, "area": 14938}, {"iscrowd": 0, "image_id": 5, "bbox": [560.0, 607.0, 47.0, 33.0], "segmentation": [[607, 607, 560, 607, 560, 640, 607, 640]], "category_id": 2, "id": 6, "area": 1551}, {"iscrowd": 0, "image_id": 5, "bbox": [561.0, 499.0, 45.0, 43.0], "segmentation": [[561, 499, 561, 542, 606, 542, 606, 499]], "category_id": 2, "id": 7, "area": 1935}, {"iscrowd": 0, "image_id": 6, "bbox": [48.0, 607.0, 47.0, 33.0], "segmentation": [[95, 607, 48, 607, 48, 640, 95, 640]], "category_id": 2, "id": 8, "area": 1551}, {"iscrowd": 0, "image_id": 6, "bbox": [49.0, 499.0, 45.0, 43.0], "segmentation": [[49, 499, 49, 542, 94, 542, 94, 499]], "category_id": 2, "id": 9, "area": 1935}, {"iscrowd": 0, "image_id": 6, "bbox": [143.0, 432.0, 45.0, 48.0], "segmentation": [[143, 432, 143, 480, 188, 480, 188, 432]], "category_id": 2, "id": 10, "area": 2160}, {"iscrowd": 0, "image_id": 7, "bbox": [117.0, 399.0, 117.0, 113.0], "segmentation": [[117, 399, 117, 512, 234, 512, 234, 399]], "category_id": 2, "id": 11, "area": 13221}, {"iscrowd": 0, "image_id": 7, "bbox": [320.0, 31.0, 154.0, 121.0], "segmentation": [[320, 31, 320, 152, 474, 152, 474, 31]], "category_id": 2, "id": 12, "area": 18634}, {"iscrowd": 0, "image_id": 8, "bbox": [423.0, 425.0, 70.0, 60.0], "segmentation": [[423, 425, 423, 485, 493, 485, 493, 425]], "category_id": 2, "id": 13, "area": 4200}, {"iscrowd": 0, "image_id": 8, "bbox": [153.0, 394.0, 28.0, 38.0], "segmentation": [[153, 394, 153, 432, 181, 432, 181, 394]], "category_id": 1, "id": 14, "area": 1064}, {"iscrowd": 0, "image_id": 8, "bbox": [236.0, 382.0, 94.0, 65.0], "segmentation": [[236, 382, 236, 447, 330, 447, 330, 382]], "category_id": 2, "id": 15, "area": 6110}, {"iscrowd": 0, "image_id": 9, "bbox": [215.0, 553.0, 90.0, 74.0], "segmentation": [[215, 553, 215, 627, 305, 627, 305, 553]], "category_id": 2, "id": 16, "area": 6660}, {"iscrowd": 0, "image_id": 9, "bbox": [403.0, 374.0, 59.0, 89.0], "segmentation": [[403, 374, 403, 463, 462, 463, 462, 374]], "category_id": 2, "id": 17, "area": 5251}, {"iscrowd": 0, "image_id": 10, "bbox": [208.0, 503.0, 84.0, 76.0], "segmentation": [[208, 503, 208, 579, 292, 579, 292, 503]], "category_id": 2, "id": 18, "area": 6384}, {"iscrowd": 0, "image_id": 10, "bbox": [580.0, 126.0, 48.0, 48.0], "segmentation": [[580, 126, 580, 174, 628, 174, 628, 126]], "category_id": 2, "id": 19, "area": 2304}, {"iscrowd": 0, "image_id": 10, "bbox": [560.0, 95.0, 47.0, 43.0], "segmentation": [[560, 95, 560, 138, 607, 138, 607, 95]], "category_id": 2, "id": 20, "area": 2021}, {"iscrowd": 0, "image_id": 10, "bbox": [561.0, 0.0, 45.0, 30.0], "segmentation": [[561, 30, 606, 30, 606, 0, 561, 0]], "category_id": 2, "id": 21, "area": 1350}, {"iscrowd": 0, "image_id": 11, "bbox": [68.0, 126.0, 48.0, 48.0], "segmentation": [[68, 126, 68, 174, 116, 174, 116, 126]], "category_id": 2, "id": 22, "area": 2304}, {"iscrowd": 0, "image_id": 11, "bbox": [48.0, 95.0, 47.0, 43.0], "segmentation": [[48, 95, 48, 138, 95, 138, 95, 95]], "category_id": 2, "id": 23, "area": 2021}, {"iscrowd": 0, "image_id": 11, "bbox": [49.0, 0.0, 45.0, 30.0], "segmentation": [[49, 30, 94, 30, 94, 0, 49, 0]], "category_id": 2, "id": 24, "area": 1350}, {"iscrowd": 0, "image_id": 12, "bbox": [215.0, 41.0, 90.0, 74.0], "segmentation": [[215, 41, 215, 115, 305, 115, 305, 41]], "category_id": 2, "id": 25, "area": 6660}, {"iscrowd": 0, "image_id": 13, "bbox": [628.0, 281.0, 12.0, 37.0], "segmentation": [[628, 281, 628, 318, 640, 318, 640, 281]], "category_id": 2, "id": 26, "area": 444}, {"iscrowd": 0, "image_id": 14, "bbox": [208.0, 0.0, 84.0, 67.0], "segmentation": [[208, 67, 292, 67, 292, 0, 208, 0]], "category_id": 2, "id": 27, "area": 5628}, {"iscrowd": 0, "image_id": 14, "bbox": [116.0, 281.0, 38.0, 37.0], "segmentation": [[116, 281, 116, 318, 154, 318, 154, 281]], "category_id": 2, "id": 28, "area": 1406}, {"iscrowd": 0, "image_id": 15, "bbox": [407.0, 516.0, 156.0, 104.0], "segmentation": [[407, 516, 407, 620, 563, 620, 563, 516]], "category_id": 2, "id": 29, "area": 16224}, {"iscrowd": 0, "image_id": 16, "bbox": [0.0, 516.0, 51.0, 104.0], "segmentation": [[51, 620, 51, 516, 0, 516, 0, 620]], "category_id": 2, "id": 30, "area": 5304}, {"iscrowd": 0, "image_id": 17, "bbox": [561.0, 534.0, 79.0, 106.0], "segmentation": [[561, 534, 561, 640, 640, 640, 640, 534]], "category_id": 2, "id": 31, "area": 8374}, {"iscrowd": 0, "image_id": 18, "bbox": [435.0, 567.0, 95.0, 73.0], "segmentation": [[530, 567, 435, 567, 435, 640, 530, 640]], "category_id": 2, "id": 32, "area": 6935}, {"iscrowd": 0, "image_id": 18, "bbox": [528.0, 439.0, 112.0, 156.0], "segmentation": [[528, 439, 528, 595, 640, 595, 640, 439]], "category_id": 2, "id": 33, "area": 17472}, {"iscrowd": 0, "image_id": 18, "bbox": [350.0, 394.0, 124.0, 148.0], "segmentation": [[350, 394, 350, 542, 474, 542, 474, 394]], "category_id": 2, "id": 34, "area": 18352}, {"iscrowd": 0, "image_id": 18, "bbox": [49.0, 534.0, 137.0, 106.0], "segmentation": [[186, 534, 49, 534, 49, 640, 186, 640]], "category_id": 2, "id": 35, "area": 14522}, {"iscrowd": 0, "image_id": 18, "bbox": [413.0, 459.0, 161.0, 144.0], "segmentation": [[413, 459, 413, 603, 574, 603, 574, 459]], "category_id": 2, "id": 36, "area": 23184}, {"iscrowd": 0, "image_id": 18, "bbox": [257.0, 406.0, 134.0, 134.0], "segmentation": [[257, 406, 257, 540, 391, 540, 391, 406]], "category_id": 2, "id": 37, "area": 17956}, {"iscrowd": 0, "image_id": 18, "bbox": [421.0, 363.0, 124.0, 99.0], "segmentation": [[421, 363, 421, 462, 545, 462, 545, 363]], "category_id": 2, "id": 38, "area": 12276}, {"iscrowd": 0, "image_id": 18, "bbox": [149.0, 475.0, 127.0, 139.0], "segmentation": [[149, 475, 149, 614, 276, 614, 276, 475]], "category_id": 2, "id": 39, "area": 17653}, {"iscrowd": 0, "image_id": 18, "bbox": [584.0, 403.0, 56.0, 130.0], "segmentation": [[584, 403, 584, 533, 640, 533, 640, 403]], "category_id": 1, "id": 40, "area": 7280}, {"iscrowd": 0, "image_id": 19, "bbox": [0.0, 567.0, 18.0, 73.0], "segmentation": [[18, 567, 0, 567, 0, 640, 18, 640]], "category_id": 2, "id": 41, "area": 1314}, {"iscrowd": 0, "image_id": 19, "bbox": [16.0, 439.0, 117.0, 156.0], "segmentation": [[16, 439, 16, 595, 133, 595, 133, 439]], "category_id": 2, "id": 42, "area": 18252}, {"iscrowd": 0, "image_id": 19, "bbox": [0.0, 459.0, 62.0, 144.0], "segmentation": [[62, 603, 62, 459, 0, 459, 0, 603]], "category_id": 2, "id": 43, "area": 8928}, {"iscrowd": 0, "image_id": 19, "bbox": [0.0, 363.0, 33.0, 99.0], "segmentation": [[33, 462, 33, 363, 0, 363, 0, 462]], "category_id": 2, "id": 44, "area": 3267}, {"iscrowd": 0, "image_id": 19, "bbox": [72.0, 403.0, 114.0, 130.0], "segmentation": [[72, 403, 72, 533, 186, 533, 186, 403]], "category_id": 1, "id": 45, "area": 14820}, {"iscrowd": 0, "image_id": 20, "bbox": [407.0, 4.0, 156.0, 104.0], "segmentation": [[407, 4, 407, 108, 563, 108, 563, 4]], "category_id": 2, "id": 46, "area": 16224}, {"iscrowd": 0, "image_id": 21, "bbox": [0.0, 4.0, 51.0, 104.0], "segmentation": [[51, 108, 51, 4, 0, 4, 0, 108]], "category_id": 2, "id": 47, "area": 5304}, {"iscrowd": 0, "image_id": 22, "bbox": [561.0, 22.0, 79.0, 131.0], "segmentation": [[561, 22, 561, 153, 640, 153, 640, 22]], "category_id": 2, "id": 48, "area": 10349}, {"iscrowd": 0, "image_id": 22, "bbox": [630.0, 134.0, 10.0, 67.0], "segmentation": [[630, 134, 630, 201, 640, 201, 640, 134]], "category_id": 2, "id": 49, "area": 670}, {"iscrowd": 0, "image_id": 23, "bbox": [435.0, 55.0, 95.0, 85.0], "segmentation": [[435, 55, 435, 140, 530, 140, 530, 55]], "category_id": 2, "id": 50, "area": 8075}, {"iscrowd": 0, "image_id": 23, "bbox": [459.0, 513.0, 147.0, 121.0], "segmentation": [[459, 513, 459, 634, 606, 634, 606, 513]], "category_id": 2, "id": 51, "area": 17787}, {"iscrowd": 0, "image_id": 23, "bbox": [194.0, 265.0, 147.0, 140.0], "segmentation": [[194, 265, 194, 405, 341, 405, 341, 265]], "category_id": 2, "id": 52, "area": 20580}, {"iscrowd": 0, "image_id": 23, "bbox": [528.0, 0.0, 112.0, 83.0], "segmentation": [[528, 83, 640, 83, 640, 0, 528, 0]], "category_id": 2, "id": 53, "area": 9296}, {"iscrowd": 0, "image_id": 23, "bbox": [350.0, 0.0, 124.0, 30.0], "segmentation": [[350, 30, 474, 30, 474, 0, 350, 0]], "category_id": 2, "id": 54, "area": 3720}, {"iscrowd": 0, "image_id": 23, "bbox": [49.0, 22.0, 137.0, 131.0], "segmentation": [[49, 22, 49, 153, 186, 153, 186, 22]], "category_id": 2, "id": 55, "area": 17947}, {"iscrowd": 0, "image_id": 23, "bbox": [413.0, 0.0, 161.0, 91.0], "segmentation": [[413, 91, 574, 91, 574, 0, 413, 0]], "category_id": 2, "id": 56, "area": 14651}, {"iscrowd": 0, "image_id": 23, "bbox": [118.0, 134.0, 83.0, 67.0], "segmentation": [[118, 134, 118, 201, 201, 201, 201, 134]], "category_id": 2, "id": 57, "area": 5561}, {"iscrowd": 0, "image_id": 23, "bbox": [257.0, 0.0, 134.0, 28.0], "segmentation": [[257, 28, 391, 28, 391, 0, 257, 0]], "category_id": 2, "id": 58, "area": 3752}, {"iscrowd": 0, "image_id": 23, "bbox": [175.0, 182.0, 100.0, 81.0], "segmentation": [[175, 182, 175, 263, 275, 263, 275, 182]], "category_id": 2, "id": 59, "area": 8100}, {"iscrowd": 0, "image_id": 23, "bbox": [245.0, 185.0, 85.0, 79.0], "segmentation": [[245, 185, 245, 264, 330, 264, 330, 185]], "category_id": 2, "id": 60, "area": 6715}, {"iscrowd": 0, "image_id": 23, "bbox": [149.0, 0.0, 127.0, 102.0], "segmentation": [[149, 102, 276, 102, 276, 0, 149, 0]], "category_id": 2, "id": 61, "area": 12954}, {"iscrowd": 0, "image_id": 24, "bbox": [602.0, 453.0, 38.0, 99.0], "segmentation": [[602, 453, 602, 552, 640, 552, 640, 453]], "category_id": 2, "id": 62, "area": 3762}, {"iscrowd": 0, "image_id": 24, "bbox": [0.0, 55.0, 18.0, 85.0], "segmentation": [[18, 140, 18, 55, 0, 55, 0, 140]], "category_id": 2, "id": 63, "area": 1530}, {"iscrowd": 0, "image_id": 24, "bbox": [0.0, 513.0, 94.0, 121.0], "segmentation": [[94, 634, 94, 513, 0, 513, 0, 634]], "category_id": 2, "id": 64, "area": 11374}, {"iscrowd": 0, "image_id": 24, "bbox": [391.0, 619.0, 211.0, 21.0], "segmentation": [[602, 619, 391, 619, 391, 640, 602, 640]], "category_id": 2, "id": 65, "area": 4431}, {"iscrowd": 0, "image_id": 24, "bbox": [16.0, 0.0, 117.0, 83.0], "segmentation": [[16, 83, 133, 83, 133, 0, 16, 0]], "category_id": 2, "id": 66, "area": 9711}, {"iscrowd": 0, "image_id": 24, "bbox": [0.0, 0.0, 62.0, 91.0], "segmentation": [[62, 91, 62, 0, 0, 0, 0, 91]], "category_id": 2, "id": 67, "area": 5642}, {"iscrowd": 0, "image_id": 24, "bbox": [468.0, 490.0, 151.0, 150.0], "segmentation": [[619, 490, 468, 490, 468, 640, 619, 640]], "category_id": 2, "id": 68, "area": 22650}, {"iscrowd": 0, "image_id": 24, "bbox": [72.0, 0.0, 114.0, 21.0], "segmentation": [[72, 21, 186, 21, 186, 0, 72, 0]], "category_id": 1, "id": 69, "area": 2394}, {"iscrowd": 0, "image_id": 25, "bbox": [326.0, 453.0, 91.0, 99.0], "segmentation": [[326, 453, 326, 552, 417, 552, 417, 453]], "category_id": 2, "id": 70, "area": 9009}, {"iscrowd": 0, "image_id": 25, "bbox": [115.0, 619.0, 211.0, 21.0], "segmentation": [[326, 619, 115, 619, 115, 640, 326, 640]], "category_id": 2, "id": 71, "area": 4431}, {"iscrowd": 0, "image_id": 25, "bbox": [384.0, 537.0, 95.0, 90.0], "segmentation": [[384, 537, 384, 627, 479, 627, 479, 537]], "category_id": 2, "id": 72, "area": 8550}, {"iscrowd": 0, "image_id": 25, "bbox": [192.0, 490.0, 151.0, 150.0], "segmentation": [[343, 490, 192, 490, 192, 640, 343, 640]], "category_id": 2, "id": 73, "area": 22650}, {"iscrowd": 0, "image_id": 26, "bbox": [459.0, 1.0, 147.0, 121.0], "segmentation": [[459, 1, 459, 122, 606, 122, 606, 1]], "category_id": 2, "id": 74, "area": 17787}, {"iscrowd": 0, "image_id": 27, "bbox": [602.0, 0.0, 38.0, 40.0], "segmentation": [[602, 40, 640, 40, 640, 0, 602, 0]], "category_id": 2, "id": 75, "area": 1520}, {"iscrowd": 0, "image_id": 27, "bbox": [0.0, 1.0, 94.0, 121.0], "segmentation": [[94, 122, 94, 1, 0, 1, 0, 122]], "category_id": 2, "id": 76, "area": 11374}, {"iscrowd": 0, "image_id": 27, "bbox": [391.0, 107.0, 211.0, 200.0], "segmentation": [[391, 107, 391, 307, 602, 307, 602, 107]], "category_id": 2, "id": 77, "area": 42200}, {"iscrowd": 0, "image_id": 27, "bbox": [468.0, 0.0, 151.0, 132.0], "segmentation": [[468, 132, 619, 132, 619, 0, 468, 0]], "category_id": 2, "id": 78, "area": 19932}, {"iscrowd": 0, "image_id": 28, "bbox": [326.0, 0.0, 91.0, 40.0], "segmentation": [[326, 40, 417, 40, 417, 0, 326, 0]], "category_id": 2, "id": 79, "area": 3640}, {"iscrowd": 0, "image_id": 28, "bbox": [115.0, 107.0, 211.0, 200.0], "segmentation": [[115, 107, 115, 307, 326, 307, 326, 107]], "category_id": 2, "id": 80, "area": 42200}, {"iscrowd": 0, "image_id": 28, "bbox": [384.0, 25.0, 95.0, 90.0], "segmentation": [[384, 25, 384, 115, 479, 115, 479, 25]], "category_id": 2, "id": 81, "area": 8550}, {"iscrowd": 0, "image_id": 28, "bbox": [571.0, 319.0, 69.0, 157.0], "segmentation": [[571, 319, 571, 476, 640, 476, 640, 319]], "category_id": 2, "id": 82, "area": 10833}, {"iscrowd": 0, "image_id": 28, "bbox": [192.0, 0.0, 151.0, 132.0], "segmentation": [[192, 132, 343, 132, 343, 0, 192, 0]], "category_id": 2, "id": 83, "area": 19932}, {"iscrowd": 0, "image_id": 29, "bbox": [525.0, 158.0, 34.0, 48.0], "segmentation": [[525, 158, 525, 206, 559, 206, 559, 158]], "category_id": 1, "id": 84, "area": 1632}, {"iscrowd": 0, "image_id": 30, "bbox": [309.0, 384.0, 126.0, 100.0], "segmentation": [[309, 384, 309, 484, 435, 484, 435, 384]], "category_id": 2, "id": 85, "area": 12600}, {"iscrowd": 0, "image_id": 30, "bbox": [13.0, 158.0, 34.0, 48.0], "segmentation": [[13, 158, 13, 206, 47, 206, 47, 158]], "category_id": 1, "id": 86, "area": 1632}, {"iscrowd": 0, "image_id": 31, "bbox": [531.0, 225.0, 109.0, 107.0], "segmentation": [[531, 225, 531, 332, 640, 332, 640, 225]], "category_id": 2, "id": 87, "area": 11663}, {"iscrowd": 0, "image_id": 32, "bbox": [19.0, 225.0, 119.0, 107.0], "segmentation": [[19, 225, 19, 332, 138, 332, 138, 225]], "category_id": 2, "id": 88, "area": 12733}], "categories": [{"id": 1, "name": "Fixed-wing Aircraft", "supercategory": "Fixed-wing Aircraft"}, {"id": 2, "name": "Cargo Plane", "supercategory": "Cargo Plane"}]}
+{
+    "images": [
+        {
+            "height": 640,
+            "width": 640,
+            "id": 1,
+            "file_name": "1165_0_2048_640_2688.jpg"
+        },
+        {
+            "height": 640,
+            "width": 640,
+            "id": 2,
+            "file_name": "1165_0_2251_640_2891.jpg"
+        },
+        {
+            "height": 640,
+            "width": 640,
+            "id": 3,
+            "file_name": "1154_0_0_640_640.jpg"
+        },
+        {
+            "height": 640,
+            "width": 640,
+            "id": 4,
+            "file_name": "2498_512_512_1152_1152.jpg"
+        },
+        {
+            "height": 640,
+            "width": 640,
+            "id": 5,
+            "file_name": "1154_1536_0_2176_640.jpg"
+        },
+        {
+            "height": 640,
+            "width": 640,
+            "id": 6,
+            "file_name": "1154_2048_0_2688_640.jpg"
+        },
+        {
+            "height": 640,
+            "width": 640,
+            "id": 7,
+            "file_name": "2498_512_1024_1152_1664.jpg"
+        },
+        {
+            "height": 640,
+            "width": 640,
+            "id": 8,
+            "file_name": "1154_0_512_640_1152.jpg"
+        },
+        {
+            "height": 640,
+            "width": 640,
+            "id": 9,
+            "file_name": "1154_512_512_1152_1152.jpg"
+        },
+        {
+            "height": 640,
+            "width": 640,
+            "id": 10,
+            "file_name": "1154_1536_512_2176_1152.jpg"
+        },
+        {
+            "height": 640,
+            "width": 640,
+            "id": 11,
+            "file_name": "1154_2048_512_2688_1152.jpg"
+        },
+        {
+            "height": 640,
+            "width": 640,
+            "id": 12,
+            "file_name": "1154_512_1024_1152_1664.jpg"
+        },
+        {
+            "height": 640,
+            "width": 640,
+            "id": 13,
+            "file_name": "1154_1024_1024_1664_1664.jpg"
+        },
+        {
+            "height": 640,
+            "width": 640,
+            "id": 14,
+            "file_name": "1154_1536_1024_2176_1664.jpg"
+        },
+        {
+            "height": 640,
+            "width": 640,
+            "id": 15,
+            "file_name": "2341_0_1024_640_1664.jpg"
+        },
+        {
+            "height": 640,
+            "width": 640,
+            "id": 16,
+            "file_name": "2341_512_1024_1152_1664.jpg"
+        },
+        {
+            "height": 640,
+            "width": 640,
+            "id": 17,
+            "file_name": "2341_1536_1024_2176_1664.jpg"
+        },
+        {
+            "height": 640,
+            "width": 640,
+            "id": 18,
+            "file_name": "2341_2048_1024_2688_1664.jpg"
+        },
+        {
+            "height": 640,
+            "width": 640,
+            "id": 19,
+            "file_name": "2341_2560_1024_3200_1664.jpg"
+        },
+        {
+            "height": 640,
+            "width": 640,
+            "id": 20,
+            "file_name": "2341_0_1536_640_2176.jpg"
+        },
+        {
+            "height": 640,
+            "width": 640,
+            "id": 21,
+            "file_name": "2341_512_1536_1152_2176.jpg"
+        },
+        {
+            "height": 640,
+            "width": 640,
+            "id": 22,
+            "file_name": "2341_1536_1536_2176_2176.jpg"
+        },
+        {
+            "height": 640,
+            "width": 640,
+            "id": 23,
+            "file_name": "2341_2048_1536_2688_2176.jpg"
+        },
+        {
+            "height": 640,
+            "width": 640,
+            "id": 24,
+            "file_name": "2341_2560_1536_3200_2176.jpg"
+        },
+        {
+            "height": 640,
+            "width": 640,
+            "id": 25,
+            "file_name": "2341_2836_1536_3476_2176.jpg"
+        },
+        {
+            "height": 640,
+            "width": 640,
+            "id": 26,
+            "file_name": "2341_2048_2048_2688_2688.jpg"
+        },
+        {
+            "height": 640,
+            "width": 640,
+            "id": 27,
+            "file_name": "2341_2560_2048_3200_2688.jpg"
+        },
+        {
+            "height": 640,
+            "width": 640,
+            "id": 28,
+            "file_name": "2341_2836_2048_3476_2688.jpg"
+        },
+        {
+            "height": 640,
+            "width": 640,
+            "id": 29,
+            "file_name": "2315_512_0_1152_640.jpg"
+        },
+        {
+            "height": 640,
+            "width": 640,
+            "id": 30,
+            "file_name": "2315_1024_0_1664_640.jpg"
+        },
+        {
+            "height": 640,
+            "width": 640,
+            "id": 31,
+            "file_name": "2315_1024_512_1664_1152.jpg"
+        },
+        {
+            "height": 640,
+            "width": 640,
+            "id": 32,
+            "file_name": "2315_1536_512_2176_1152.jpg"
+        }
+    ],
+    "annotations": [
+        {
+            "iscrowd": 0,
+            "image_id": 1,
+            "bbox": [
+                139.0,
+                126.0,
+                120.0,
+                123.0
+            ],
+            "segmentation": [
+                [
+                    139,
+                    126,
+                    139,
+                    249,
+                    259,
+                    249,
+                    259,
+                    126
+                ]
+            ],
+            "category_id": 2,
+            "id": 1,
+            "area": 14760
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 2,
+            "bbox": [
+                139.0,
+                0.0,
+                120.0,
+                46.0
+            ],
+            "segmentation": [
+                [
+                    139,
+                    46,
+                    259,
+                    46,
+                    259,
+                    0,
+                    139,
+                    0
+                ]
+            ],
+            "category_id": 2,
+            "id": 2,
+            "area": 5520
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 3,
+            "bbox": [
+                205.0,
+                304.0,
+                28.0,
+                42.0
+            ],
+            "segmentation": [
+                [
+                    205,
+                    304,
+                    205,
+                    346,
+                    233,
+                    346,
+                    233,
+                    304
+                ]
+            ],
+            "category_id": 1,
+            "id": 3,
+            "area": 1176
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 3,
+            "bbox": [
+                202.0,
+                379.0,
+                14.0,
+                42.0
+            ],
+            "segmentation": [
+                [
+                    202,
+                    379,
+                    202,
+                    421,
+                    216,
+                    421,
+                    216,
+                    379
+                ]
+            ],
+            "category_id": 1,
+            "id": 4,
+            "area": 588
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 4,
+            "bbox": [
+                320.0,
+                543.0,
+                154.0,
+                97.0
+            ],
+            "segmentation": [
+                [
+                    474,
+                    543,
+                    320,
+                    543,
+                    320,
+                    640,
+                    474,
+                    640
+                ]
+            ],
+            "category_id": 2,
+            "id": 5,
+            "area": 14938
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 5,
+            "bbox": [
+                560.0,
+                607.0,
+                47.0,
+                33.0
+            ],
+            "segmentation": [
+                [
+                    607,
+                    607,
+                    560,
+                    607,
+                    560,
+                    640,
+                    607,
+                    640
+                ]
+            ],
+            "category_id": 2,
+            "id": 6,
+            "area": 1551
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 5,
+            "bbox": [
+                561.0,
+                499.0,
+                45.0,
+                43.0
+            ],
+            "segmentation": [
+                [
+                    561,
+                    499,
+                    561,
+                    542,
+                    606,
+                    542,
+                    606,
+                    499
+                ]
+            ],
+            "category_id": 2,
+            "id": 7,
+            "area": 1935
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 6,
+            "bbox": [
+                48.0,
+                607.0,
+                47.0,
+                33.0
+            ],
+            "segmentation": [
+                [
+                    95,
+                    607,
+                    48,
+                    607,
+                    48,
+                    640,
+                    95,
+                    640
+                ]
+            ],
+            "category_id": 2,
+            "id": 8,
+            "area": 1551
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 6,
+            "bbox": [
+                49.0,
+                499.0,
+                45.0,
+                43.0
+            ],
+            "segmentation": [
+                [
+                    49,
+                    499,
+                    49,
+                    542,
+                    94,
+                    542,
+                    94,
+                    499
+                ]
+            ],
+            "category_id": 2,
+            "id": 9,
+            "area": 1935
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 6,
+            "bbox": [
+                143.0,
+                432.0,
+                45.0,
+                48.0
+            ],
+            "segmentation": [
+                [
+                    143,
+                    432,
+                    143,
+                    480,
+                    188,
+                    480,
+                    188,
+                    432
+                ]
+            ],
+            "category_id": 2,
+            "id": 10,
+            "area": 2160
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 7,
+            "bbox": [
+                117.0,
+                399.0,
+                117.0,
+                113.0
+            ],
+            "segmentation": [
+                [
+                    117,
+                    399,
+                    117,
+                    512,
+                    234,
+                    512,
+                    234,
+                    399
+                ]
+            ],
+            "category_id": 2,
+            "id": 11,
+            "area": 13221
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 7,
+            "bbox": [
+                320.0,
+                31.0,
+                154.0,
+                121.0
+            ],
+            "segmentation": [
+                [
+                    320,
+                    31,
+                    320,
+                    152,
+                    474,
+                    152,
+                    474,
+                    31
+                ]
+            ],
+            "category_id": 2,
+            "id": 12,
+            "area": 18634
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 8,
+            "bbox": [
+                423.0,
+                425.0,
+                70.0,
+                60.0
+            ],
+            "segmentation": [
+                [
+                    423,
+                    425,
+                    423,
+                    485,
+                    493,
+                    485,
+                    493,
+                    425
+                ]
+            ],
+            "category_id": 2,
+            "id": 13,
+            "area": 4200
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 8,
+            "bbox": [
+                153.0,
+                394.0,
+                28.0,
+                38.0
+            ],
+            "segmentation": [
+                [
+                    153,
+                    394,
+                    153,
+                    432,
+                    181,
+                    432,
+                    181,
+                    394
+                ]
+            ],
+            "category_id": 1,
+            "id": 14,
+            "area": 1064
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 8,
+            "bbox": [
+                236.0,
+                382.0,
+                94.0,
+                65.0
+            ],
+            "segmentation": [
+                [
+                    236,
+                    382,
+                    236,
+                    447,
+                    330,
+                    447,
+                    330,
+                    382
+                ]
+            ],
+            "category_id": 2,
+            "id": 15,
+            "area": 6110
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 9,
+            "bbox": [
+                215.0,
+                553.0,
+                90.0,
+                74.0
+            ],
+            "segmentation": [
+                [
+                    215,
+                    553,
+                    215,
+                    627,
+                    305,
+                    627,
+                    305,
+                    553
+                ]
+            ],
+            "category_id": 2,
+            "id": 16,
+            "area": 6660
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 9,
+            "bbox": [
+                403.0,
+                374.0,
+                59.0,
+                89.0
+            ],
+            "segmentation": [
+                [
+                    403,
+                    374,
+                    403,
+                    463,
+                    462,
+                    463,
+                    462,
+                    374
+                ]
+            ],
+            "category_id": 2,
+            "id": 17,
+            "area": 5251
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 10,
+            "bbox": [
+                208.0,
+                503.0,
+                84.0,
+                76.0
+            ],
+            "segmentation": [
+                [
+                    208,
+                    503,
+                    208,
+                    579,
+                    292,
+                    579,
+                    292,
+                    503
+                ]
+            ],
+            "category_id": 2,
+            "id": 18,
+            "area": 6384
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 10,
+            "bbox": [
+                580.0,
+                126.0,
+                48.0,
+                48.0
+            ],
+            "segmentation": [
+                [
+                    580,
+                    126,
+                    580,
+                    174,
+                    628,
+                    174,
+                    628,
+                    126
+                ]
+            ],
+            "category_id": 2,
+            "id": 19,
+            "area": 2304
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 10,
+            "bbox": [
+                560.0,
+                95.0,
+                47.0,
+                43.0
+            ],
+            "segmentation": [
+                [
+                    560,
+                    95,
+                    560,
+                    138,
+                    607,
+                    138,
+                    607,
+                    95
+                ]
+            ],
+            "category_id": 2,
+            "id": 20,
+            "area": 2021
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 10,
+            "bbox": [
+                561.0,
+                0.0,
+                45.0,
+                30.0
+            ],
+            "segmentation": [
+                [
+                    561,
+                    30,
+                    606,
+                    30,
+                    606,
+                    0,
+                    561,
+                    0
+                ]
+            ],
+            "category_id": 2,
+            "id": 21,
+            "area": 1350
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 11,
+            "bbox": [
+                68.0,
+                126.0,
+                48.0,
+                48.0
+            ],
+            "segmentation": [
+                [
+                    68,
+                    126,
+                    68,
+                    174,
+                    116,
+                    174,
+                    116,
+                    126
+                ]
+            ],
+            "category_id": 2,
+            "id": 22,
+            "area": 2304
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 11,
+            "bbox": [
+                48.0,
+                95.0,
+                47.0,
+                43.0
+            ],
+            "segmentation": [
+                [
+                    48,
+                    95,
+                    48,
+                    138,
+                    95,
+                    138,
+                    95,
+                    95
+                ]
+            ],
+            "category_id": 2,
+            "id": 23,
+            "area": 2021
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 11,
+            "bbox": [
+                49.0,
+                0.0,
+                45.0,
+                30.0
+            ],
+            "segmentation": [
+                [
+                    49,
+                    30,
+                    94,
+                    30,
+                    94,
+                    0,
+                    49,
+                    0
+                ]
+            ],
+            "category_id": 2,
+            "id": 24,
+            "area": 1350
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 12,
+            "bbox": [
+                215.0,
+                41.0,
+                90.0,
+                74.0
+            ],
+            "segmentation": [
+                [
+                    215,
+                    41,
+                    215,
+                    115,
+                    305,
+                    115,
+                    305,
+                    41
+                ]
+            ],
+            "category_id": 2,
+            "id": 25,
+            "area": 6660
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 13,
+            "bbox": [
+                628.0,
+                281.0,
+                12.0,
+                37.0
+            ],
+            "segmentation": [
+                [
+                    628,
+                    281,
+                    628,
+                    318,
+                    640,
+                    318,
+                    640,
+                    281
+                ]
+            ],
+            "category_id": 2,
+            "id": 26,
+            "area": 444
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 14,
+            "bbox": [
+                208.0,
+                0.0,
+                84.0,
+                67.0
+            ],
+            "segmentation": [
+                [
+                    208,
+                    67,
+                    292,
+                    67,
+                    292,
+                    0,
+                    208,
+                    0
+                ]
+            ],
+            "category_id": 2,
+            "id": 27,
+            "area": 5628
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 14,
+            "bbox": [
+                116.0,
+                281.0,
+                38.0,
+                37.0
+            ],
+            "segmentation": [
+                [
+                    116,
+                    281,
+                    116,
+                    318,
+                    154,
+                    318,
+                    154,
+                    281
+                ]
+            ],
+            "category_id": 2,
+            "id": 28,
+            "area": 1406
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 15,
+            "bbox": [
+                407.0,
+                516.0,
+                156.0,
+                104.0
+            ],
+            "segmentation": [
+                [
+                    407,
+                    516,
+                    407,
+                    620,
+                    563,
+                    620,
+                    563,
+                    516
+                ]
+            ],
+            "category_id": 2,
+            "id": 29,
+            "area": 16224
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 16,
+            "bbox": [
+                0.0,
+                516.0,
+                51.0,
+                104.0
+            ],
+            "segmentation": [
+                [
+                    51,
+                    620,
+                    51,
+                    516,
+                    0,
+                    516,
+                    0,
+                    620
+                ]
+            ],
+            "category_id": 2,
+            "id": 30,
+            "area": 5304
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 17,
+            "bbox": [
+                561.0,
+                534.0,
+                79.0,
+                106.0
+            ],
+            "segmentation": [
+                [
+                    561,
+                    534,
+                    561,
+                    640,
+                    640,
+                    640,
+                    640,
+                    534
+                ]
+            ],
+            "category_id": 2,
+            "id": 31,
+            "area": 8374
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 18,
+            "bbox": [
+                435.0,
+                567.0,
+                95.0,
+                73.0
+            ],
+            "segmentation": [
+                [
+                    530,
+                    567,
+                    435,
+                    567,
+                    435,
+                    640,
+                    530,
+                    640
+                ]
+            ],
+            "category_id": 2,
+            "id": 32,
+            "area": 6935
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 18,
+            "bbox": [
+                528.0,
+                439.0,
+                112.0,
+                156.0
+            ],
+            "segmentation": [
+                [
+                    528,
+                    439,
+                    528,
+                    595,
+                    640,
+                    595,
+                    640,
+                    439
+                ]
+            ],
+            "category_id": 2,
+            "id": 33,
+            "area": 17472
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 18,
+            "bbox": [
+                350.0,
+                394.0,
+                124.0,
+                148.0
+            ],
+            "segmentation": [
+                [
+                    350,
+                    394,
+                    350,
+                    542,
+                    474,
+                    542,
+                    474,
+                    394
+                ]
+            ],
+            "category_id": 2,
+            "id": 34,
+            "area": 18352
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 18,
+            "bbox": [
+                49.0,
+                534.0,
+                137.0,
+                106.0
+            ],
+            "segmentation": [
+                [
+                    186,
+                    534,
+                    49,
+                    534,
+                    49,
+                    640,
+                    186,
+                    640
+                ]
+            ],
+            "category_id": 2,
+            "id": 35,
+            "area": 14522
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 18,
+            "bbox": [
+                413.0,
+                459.0,
+                161.0,
+                144.0
+            ],
+            "segmentation": [
+                [
+                    413,
+                    459,
+                    413,
+                    603,
+                    574,
+                    603,
+                    574,
+                    459
+                ]
+            ],
+            "category_id": 2,
+            "id": 36,
+            "area": 23184
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 18,
+            "bbox": [
+                257.0,
+                406.0,
+                134.0,
+                134.0
+            ],
+            "segmentation": [
+                [
+                    257,
+                    406,
+                    257,
+                    540,
+                    391,
+                    540,
+                    391,
+                    406
+                ]
+            ],
+            "category_id": 2,
+            "id": 37,
+            "area": 17956
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 18,
+            "bbox": [
+                421.0,
+                363.0,
+                124.0,
+                99.0
+            ],
+            "segmentation": [
+                [
+                    421,
+                    363,
+                    421,
+                    462,
+                    545,
+                    462,
+                    545,
+                    363
+                ]
+            ],
+            "category_id": 2,
+            "id": 38,
+            "area": 12276
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 18,
+            "bbox": [
+                149.0,
+                475.0,
+                127.0,
+                139.0
+            ],
+            "segmentation": [
+                [
+                    149,
+                    475,
+                    149,
+                    614,
+                    276,
+                    614,
+                    276,
+                    475
+                ]
+            ],
+            "category_id": 2,
+            "id": 39,
+            "area": 17653
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 18,
+            "bbox": [
+                584.0,
+                403.0,
+                56.0,
+                130.0
+            ],
+            "segmentation": [
+                [
+                    584,
+                    403,
+                    584,
+                    533,
+                    640,
+                    533,
+                    640,
+                    403
+                ]
+            ],
+            "category_id": 1,
+            "id": 40,
+            "area": 7280
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 19,
+            "bbox": [
+                0.0,
+                567.0,
+                18.0,
+                73.0
+            ],
+            "segmentation": [
+                [
+                    18,
+                    567,
+                    0,
+                    567,
+                    0,
+                    640,
+                    18,
+                    640
+                ]
+            ],
+            "category_id": 2,
+            "id": 41,
+            "area": 1314
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 19,
+            "bbox": [
+                16.0,
+                439.0,
+                117.0,
+                156.0
+            ],
+            "segmentation": [
+                [
+                    16,
+                    439,
+                    16,
+                    595,
+                    133,
+                    595,
+                    133,
+                    439
+                ]
+            ],
+            "category_id": 2,
+            "id": 42,
+            "area": 18252
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 19,
+            "bbox": [
+                0.0,
+                459.0,
+                62.0,
+                144.0
+            ],
+            "segmentation": [
+                [
+                    62,
+                    603,
+                    62,
+                    459,
+                    0,
+                    459,
+                    0,
+                    603
+                ]
+            ],
+            "category_id": 2,
+            "id": 43,
+            "area": 8928
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 19,
+            "bbox": [
+                0.0,
+                363.0,
+                33.0,
+                99.0
+            ],
+            "segmentation": [
+                [
+                    33,
+                    462,
+                    33,
+                    363,
+                    0,
+                    363,
+                    0,
+                    462
+                ]
+            ],
+            "category_id": 2,
+            "id": 44,
+            "area": 3267
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 19,
+            "bbox": [
+                72.0,
+                403.0,
+                114.0,
+                130.0
+            ],
+            "segmentation": [
+                [
+                    72,
+                    403,
+                    72,
+                    533,
+                    186,
+                    533,
+                    186,
+                    403
+                ]
+            ],
+            "category_id": 1,
+            "id": 45,
+            "area": 14820
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 20,
+            "bbox": [
+                407.0,
+                4.0,
+                156.0,
+                104.0
+            ],
+            "segmentation": [
+                [
+                    407,
+                    4,
+                    407,
+                    108,
+                    563,
+                    108,
+                    563,
+                    4
+                ]
+            ],
+            "category_id": 2,
+            "id": 46,
+            "area": 16224
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 21,
+            "bbox": [
+                0.0,
+                4.0,
+                51.0,
+                104.0
+            ],
+            "segmentation": [
+                [
+                    51,
+                    108,
+                    51,
+                    4,
+                    0,
+                    4,
+                    0,
+                    108
+                ]
+            ],
+            "category_id": 2,
+            "id": 47,
+            "area": 5304
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 22,
+            "bbox": [
+                561.0,
+                22.0,
+                79.0,
+                131.0
+            ],
+            "segmentation": [
+                [
+                    561,
+                    22,
+                    561,
+                    153,
+                    640,
+                    153,
+                    640,
+                    22
+                ]
+            ],
+            "category_id": 2,
+            "id": 48,
+            "area": 10349
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 22,
+            "bbox": [
+                630.0,
+                134.0,
+                10.0,
+                67.0
+            ],
+            "segmentation": [
+                [
+                    630,
+                    134,
+                    630,
+                    201,
+                    640,
+                    201,
+                    640,
+                    134
+                ]
+            ],
+            "category_id": 2,
+            "id": 49,
+            "area": 670
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 23,
+            "bbox": [
+                435.0,
+                55.0,
+                95.0,
+                85.0
+            ],
+            "segmentation": [
+                [
+                    435,
+                    55,
+                    435,
+                    140,
+                    530,
+                    140,
+                    530,
+                    55
+                ]
+            ],
+            "category_id": 2,
+            "id": 50,
+            "area": 8075
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 23,
+            "bbox": [
+                459.0,
+                513.0,
+                147.0,
+                121.0
+            ],
+            "segmentation": [
+                [
+                    459,
+                    513,
+                    459,
+                    634,
+                    606,
+                    634,
+                    606,
+                    513
+                ]
+            ],
+            "category_id": 2,
+            "id": 51,
+            "area": 17787
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 23,
+            "bbox": [
+                194.0,
+                265.0,
+                147.0,
+                140.0
+            ],
+            "segmentation": [
+                [
+                    194,
+                    265,
+                    194,
+                    405,
+                    341,
+                    405,
+                    341,
+                    265
+                ]
+            ],
+            "category_id": 2,
+            "id": 52,
+            "area": 20580
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 23,
+            "bbox": [
+                528.0,
+                0.0,
+                112.0,
+                83.0
+            ],
+            "segmentation": [
+                [
+                    528,
+                    83,
+                    640,
+                    83,
+                    640,
+                    0,
+                    528,
+                    0
+                ]
+            ],
+            "category_id": 2,
+            "id": 53,
+            "area": 9296
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 23,
+            "bbox": [
+                350.0,
+                0.0,
+                124.0,
+                30.0
+            ],
+            "segmentation": [
+                [
+                    350,
+                    30,
+                    474,
+                    30,
+                    474,
+                    0,
+                    350,
+                    0
+                ]
+            ],
+            "category_id": 2,
+            "id": 54,
+            "area": 3720
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 23,
+            "bbox": [
+                49.0,
+                22.0,
+                137.0,
+                131.0
+            ],
+            "segmentation": [
+                [
+                    49,
+                    22,
+                    49,
+                    153,
+                    186,
+                    153,
+                    186,
+                    22
+                ]
+            ],
+            "category_id": 2,
+            "id": 55,
+            "area": 17947
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 23,
+            "bbox": [
+                413.0,
+                0.0,
+                161.0,
+                91.0
+            ],
+            "segmentation": [
+                [
+                    413,
+                    91,
+                    574,
+                    91,
+                    574,
+                    0,
+                    413,
+                    0
+                ]
+            ],
+            "category_id": 2,
+            "id": 56,
+            "area": 14651
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 23,
+            "bbox": [
+                118.0,
+                134.0,
+                83.0,
+                67.0
+            ],
+            "segmentation": [
+                [
+                    118,
+                    134,
+                    118,
+                    201,
+                    201,
+                    201,
+                    201,
+                    134
+                ]
+            ],
+            "category_id": 2,
+            "id": 57,
+            "area": 5561
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 23,
+            "bbox": [
+                257.0,
+                0.0,
+                134.0,
+                28.0
+            ],
+            "segmentation": [
+                [
+                    257,
+                    28,
+                    391,
+                    28,
+                    391,
+                    0,
+                    257,
+                    0
+                ]
+            ],
+            "category_id": 2,
+            "id": 58,
+            "area": 3752
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 23,
+            "bbox": [
+                175.0,
+                182.0,
+                100.0,
+                81.0
+            ],
+            "segmentation": [
+                [
+                    175,
+                    182,
+                    175,
+                    263,
+                    275,
+                    263,
+                    275,
+                    182
+                ]
+            ],
+            "category_id": 2,
+            "id": 59,
+            "area": 8100
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 23,
+            "bbox": [
+                245.0,
+                185.0,
+                85.0,
+                79.0
+            ],
+            "segmentation": [
+                [
+                    245,
+                    185,
+                    245,
+                    264,
+                    330,
+                    264,
+                    330,
+                    185
+                ]
+            ],
+            "category_id": 2,
+            "id": 60,
+            "area": 6715
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 23,
+            "bbox": [
+                149.0,
+                0.0,
+                127.0,
+                102.0
+            ],
+            "segmentation": [
+                [
+                    149,
+                    102,
+                    276,
+                    102,
+                    276,
+                    0,
+                    149,
+                    0
+                ]
+            ],
+            "category_id": 2,
+            "id": 61,
+            "area": 12954
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 24,
+            "bbox": [
+                602.0,
+                453.0,
+                38.0,
+                99.0
+            ],
+            "segmentation": [
+                [
+                    602,
+                    453,
+                    602,
+                    552,
+                    640,
+                    552,
+                    640,
+                    453
+                ]
+            ],
+            "category_id": 2,
+            "id": 62,
+            "area": 3762
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 24,
+            "bbox": [
+                0.0,
+                55.0,
+                18.0,
+                85.0
+            ],
+            "segmentation": [
+                [
+                    18,
+                    140,
+                    18,
+                    55,
+                    0,
+                    55,
+                    0,
+                    140
+                ]
+            ],
+            "category_id": 2,
+            "id": 63,
+            "area": 1530
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 24,
+            "bbox": [
+                0.0,
+                513.0,
+                94.0,
+                121.0
+            ],
+            "segmentation": [
+                [
+                    94,
+                    634,
+                    94,
+                    513,
+                    0,
+                    513,
+                    0,
+                    634
+                ]
+            ],
+            "category_id": 2,
+            "id": 64,
+            "area": 11374
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 24,
+            "bbox": [
+                391.0,
+                619.0,
+                211.0,
+                21.0
+            ],
+            "segmentation": [
+                [
+                    602,
+                    619,
+                    391,
+                    619,
+                    391,
+                    640,
+                    602,
+                    640
+                ]
+            ],
+            "category_id": 2,
+            "id": 65,
+            "area": 4431
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 24,
+            "bbox": [
+                16.0,
+                0.0,
+                117.0,
+                83.0
+            ],
+            "segmentation": [
+                [
+                    16,
+                    83,
+                    133,
+                    83,
+                    133,
+                    0,
+                    16,
+                    0
+                ]
+            ],
+            "category_id": 2,
+            "id": 66,
+            "area": 9711
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 24,
+            "bbox": [
+                0.0,
+                0.0,
+                62.0,
+                91.0
+            ],
+            "segmentation": [
+                [
+                    62,
+                    91,
+                    62,
+                    0,
+                    0,
+                    0,
+                    0,
+                    91
+                ]
+            ],
+            "category_id": 2,
+            "id": 67,
+            "area": 5642
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 24,
+            "bbox": [
+                468.0,
+                490.0,
+                151.0,
+                150.0
+            ],
+            "segmentation": [
+                [
+                    619,
+                    490,
+                    468,
+                    490,
+                    468,
+                    640,
+                    619,
+                    640
+                ]
+            ],
+            "category_id": 2,
+            "id": 68,
+            "area": 22650
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 24,
+            "bbox": [
+                72.0,
+                0.0,
+                114.0,
+                21.0
+            ],
+            "segmentation": [
+                [
+                    72,
+                    21,
+                    186,
+                    21,
+                    186,
+                    0,
+                    72,
+                    0
+                ]
+            ],
+            "category_id": 1,
+            "id": 69,
+            "area": 2394
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 25,
+            "bbox": [
+                326.0,
+                453.0,
+                91.0,
+                99.0
+            ],
+            "segmentation": [
+                [
+                    326,
+                    453,
+                    326,
+                    552,
+                    417,
+                    552,
+                    417,
+                    453
+                ]
+            ],
+            "category_id": 2,
+            "id": 70,
+            "area": 9009
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 25,
+            "bbox": [
+                115.0,
+                619.0,
+                211.0,
+                21.0
+            ],
+            "segmentation": [
+                [
+                    326,
+                    619,
+                    115,
+                    619,
+                    115,
+                    640,
+                    326,
+                    640
+                ]
+            ],
+            "category_id": 2,
+            "id": 71,
+            "area": 4431
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 25,
+            "bbox": [
+                384.0,
+                537.0,
+                95.0,
+                90.0
+            ],
+            "segmentation": [
+                [
+                    384,
+                    537,
+                    384,
+                    627,
+                    479,
+                    627,
+                    479,
+                    537
+                ]
+            ],
+            "category_id": 2,
+            "id": 72,
+            "area": 8550
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 25,
+            "bbox": [
+                192.0,
+                490.0,
+                151.0,
+                150.0
+            ],
+            "segmentation": [
+                [
+                    343,
+                    490,
+                    192,
+                    490,
+                    192,
+                    640,
+                    343,
+                    640
+                ]
+            ],
+            "category_id": 2,
+            "id": 73,
+            "area": 22650
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 26,
+            "bbox": [
+                459.0,
+                1.0,
+                147.0,
+                121.0
+            ],
+            "segmentation": [
+                [
+                    459,
+                    1,
+                    459,
+                    122,
+                    606,
+                    122,
+                    606,
+                    1
+                ]
+            ],
+            "category_id": 2,
+            "id": 74,
+            "area": 17787
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 27,
+            "bbox": [
+                602.0,
+                0.0,
+                38.0,
+                40.0
+            ],
+            "segmentation": [
+                [
+                    602,
+                    40,
+                    640,
+                    40,
+                    640,
+                    0,
+                    602,
+                    0
+                ]
+            ],
+            "category_id": 2,
+            "id": 75,
+            "area": 1520
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 27,
+            "bbox": [
+                0.0,
+                1.0,
+                94.0,
+                121.0
+            ],
+            "segmentation": [
+                [
+                    94,
+                    122,
+                    94,
+                    1,
+                    0,
+                    1,
+                    0,
+                    122
+                ]
+            ],
+            "category_id": 2,
+            "id": 76,
+            "area": 11374
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 27,
+            "bbox": [
+                391.0,
+                107.0,
+                211.0,
+                200.0
+            ],
+            "segmentation": [
+                [
+                    391,
+                    107,
+                    391,
+                    307,
+                    602,
+                    307,
+                    602,
+                    107
+                ]
+            ],
+            "category_id": 2,
+            "id": 77,
+            "area": 42200
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 27,
+            "bbox": [
+                468.0,
+                0.0,
+                151.0,
+                132.0
+            ],
+            "segmentation": [
+                [
+                    468,
+                    132,
+                    619,
+                    132,
+                    619,
+                    0,
+                    468,
+                    0
+                ]
+            ],
+            "category_id": 2,
+            "id": 78,
+            "area": 19932
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 28,
+            "bbox": [
+                326.0,
+                0.0,
+                91.0,
+                40.0
+            ],
+            "segmentation": [
+                [
+                    326,
+                    40,
+                    417,
+                    40,
+                    417,
+                    0,
+                    326,
+                    0
+                ]
+            ],
+            "category_id": 2,
+            "id": 79,
+            "area": 3640
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 28,
+            "bbox": [
+                115.0,
+                107.0,
+                211.0,
+                200.0
+            ],
+            "segmentation": [
+                [
+                    115,
+                    107,
+                    115,
+                    307,
+                    326,
+                    307,
+                    326,
+                    107
+                ]
+            ],
+            "category_id": 2,
+            "id": 80,
+            "area": 42200
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 28,
+            "bbox": [
+                384.0,
+                25.0,
+                95.0,
+                90.0
+            ],
+            "segmentation": [
+                [
+                    384,
+                    25,
+                    384,
+                    115,
+                    479,
+                    115,
+                    479,
+                    25
+                ]
+            ],
+            "category_id": 2,
+            "id": 81,
+            "area": 8550
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 28,
+            "bbox": [
+                571.0,
+                319.0,
+                69.0,
+                157.0
+            ],
+            "segmentation": [
+                [
+                    571,
+                    319,
+                    571,
+                    476,
+                    640,
+                    476,
+                    640,
+                    319
+                ]
+            ],
+            "category_id": 2,
+            "id": 82,
+            "area": 10833
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 28,
+            "bbox": [
+                192.0,
+                0.0,
+                151.0,
+                132.0
+            ],
+            "segmentation": [
+                [
+                    192,
+                    132,
+                    343,
+                    132,
+                    343,
+                    0,
+                    192,
+                    0
+                ]
+            ],
+            "category_id": 2,
+            "id": 83,
+            "area": 19932
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 29,
+            "bbox": [
+                525.0,
+                158.0,
+                34.0,
+                48.0
+            ],
+            "segmentation": [
+                [
+                    525,
+                    158,
+                    525,
+                    206,
+                    559,
+                    206,
+                    559,
+                    158
+                ]
+            ],
+            "category_id": 1,
+            "id": 84,
+            "area": 1632
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 30,
+            "bbox": [
+                309.0,
+                384.0,
+                126.0,
+                100.0
+            ],
+            "segmentation": [
+                [
+                    309,
+                    384,
+                    309,
+                    484,
+                    435,
+                    484,
+                    435,
+                    384
+                ]
+            ],
+            "category_id": 2,
+            "id": 85,
+            "area": 12600
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 30,
+            "bbox": [
+                13.0,
+                158.0,
+                34.0,
+                48.0
+            ],
+            "segmentation": [
+                [
+                    13,
+                    158,
+                    13,
+                    206,
+                    47,
+                    206,
+                    47,
+                    158
+                ]
+            ],
+            "category_id": 1,
+            "id": 86,
+            "area": 1632
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 31,
+            "bbox": [
+                531.0,
+                225.0,
+                109.0,
+                107.0
+            ],
+            "segmentation": [
+                [
+                    531,
+                    225,
+                    531,
+                    332,
+                    640,
+                    332,
+                    640,
+                    225
+                ]
+            ],
+            "category_id": 2,
+            "id": 87,
+            "area": 11663
+        },
+        {
+            "iscrowd": 0,
+            "image_id": 32,
+            "bbox": [
+                19.0,
+                225.0,
+                119.0,
+                107.0
+            ],
+            "segmentation": [
+                [
+                    19,
+                    225,
+                    19,
+                    332,
+                    138,
+                    332,
+                    138,
+                    225
+                ]
+            ],
+            "category_id": 2,
+            "id": 88,
+            "area": 12733
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "Fixed-wing Aircraft",
+            "supercategory": "Fixed-wing Aircraft"
+        },
+        {
+            "id": 2,
+            "name": "Cargo Plane",
+            "supercategory": "Cargo Plane"
+        }
+    ]
+}
