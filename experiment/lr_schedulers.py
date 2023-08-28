@@ -31,11 +31,8 @@ def WarmupWrapper(scheduler_type):
             return mult
 
         def get_lr(self):
-            # print("self.last_epoch: ",self.last_epoch )
             if self.last_epoch < self.warmup_iters:
                 mult = self.get_warmup_mult()
-                # print("mult: ", mult, "base_lrs: ", self.base_lrs)
-                # print("[mult * b_lr for b_lr in self.base_lrs]: ",[mult * b_lr for b_lr in self.base_lrs])
                 return [mult * b_lr for b_lr in self.base_lrs]
             return super(Wrapped, self).get_lr()
 

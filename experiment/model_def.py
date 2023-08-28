@@ -269,7 +269,7 @@ class ObjectDetectionTrial(PyTorchTrial):
                                  shuffle=True,
                                  num_workers=self.hparams.num_workers, 
                                  collate_fn=unwrap_collate_fn)
-        print("NUMBER OF BATCHES IN COCO: ",len(data_loader))# 59143, 7392 for mini coco
+        print("NUMBER OF Train BATCHES IN COCO: ",len(data_loader))# 59143, 7392 for mini coco
         return data_loader
 
     def build_validation_data_loader(self) -> DataLoader:
@@ -302,7 +302,7 @@ class ObjectDetectionTrial(PyTorchTrial):
                             num_workers=self.hparams.num_workers,
                             collate_fn=unwrap_collate_fn)
         self.test_length = len(data_loader_test)# batch size of 2
-        print("Length of Test Dataset: ",len(data_loader_test))
+        print("NUMBER OF Test BATCHES IN COCO: ",len(data_loader_test))# 59143, 7392 for mini coco
         
         return data_loader_test
     
