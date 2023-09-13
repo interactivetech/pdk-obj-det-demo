@@ -50,7 +50,8 @@ class MyCallbacks(PyTorchCallback):
 
     def on_checkpoint_load_start(self, checkpoint: Dict[str, Any]) -> None:
         print("loading checkpoint")
-        assert checkpoint["x"] == self.x
+        print(checkpoint)
+        # assert checkpoint["x"] == checkpoint
 
 #     def on_checkpoint_save_start(self, checkpoint: Dict[str, Any]) -> None:
 #         print("saving checkpoint")
@@ -266,7 +267,7 @@ class ObjectDetectionTrial(PyTorchTrial):
         # define model
         # print("self.hparams[model]: ",self.hparams['model'] )
         
-        assert n_classes != -1# Make sure number of classes is extracted
+        assert n_classes != -1, "n_classes has not been extracted"# Make sure number of classes is extracted
         
         if self.hparams['model'] == 'fasterrcnn_resnet50_fpn':
             n_classes+=1# Make sure to add +1 to n_classes because FasterRCNN Torchvision expects class id 0 to be background
@@ -277,10 +278,11 @@ class ObjectDetectionTrial(PyTorchTrial):
         print("Converted all BatchNorm*D layers in the model to torch.nn.SyncBatchNorm layers.")
         if self.hparams['finetune_ckpt'] != None:
             try:
-                checkpoint = torch.load(self.hparams['finetune_ckpt'], map_location='cpu')
-                model.load_state_dict(checkpoint['model'])
+                print("trying to load: {}".format(self.hparams['finetune_ckpt'][str(n_classes)]))
+                checkpoint = torch.load(self.hparams['finetune_ckpt'][str(n_classes)], map_location='cpu')
+                model.load_state_dict(checkpoint['model'][str(n_classes)])
             except Exception as e:
-                print("Loading model from {} failed. Continuing...".format(self.hparams['finetune_ckpt']))
+                print("Loading model from {} failed. Continuing...".format(self.hparams['finetune_ckpt'][str(n_classes)]))
                 print(e)
         # wrap model
         
