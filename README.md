@@ -3,7 +3,7 @@ Demo running End to End MLOPS using Determined, Pachyderm, and Kserve. Demo runs
 # Step 1: Prepare Environment 
 * Create Jupyterlab instance on MLDS cluster with resource pool T4 or A100
 * Select one GPU in jupyterlab environment
-* Use docker container: `mendeza/breck:nb_0.0.4`
+* Use docker container: `mendeza/breck:nb_0.0.5`
 
 See screenshot below:
 
