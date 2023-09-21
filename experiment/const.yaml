@@ -1,6 +1,6 @@
 name: Train Test
 workspace: Andrew
-project: PDK Test
+project: PDK Demo
 # bind_mounts:
 #     - host_path: /run/determined/workdir/shared_fs/
 #       container_path: /tmp/data/
