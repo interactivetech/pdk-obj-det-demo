@@ -13,12 +13,10 @@ except ImportError as e:
     pass  # module doesn't exist, deal with it.
 
 from torchvision.models.detection.anchor_utils import AnchorGenerator
-
 from torch import nn, Tensor
 from typing import Callable, Dict, List, Optional, Union
 
 from torchvision.ops.feature_pyramid_network import ExtraFPNBlock, FeaturePyramidNetwork, LastLevelMaxPool
-# import torchsummary
 import math
 from torchvision.models.detection.faster_rcnn import FastRCNNPredictor
 
@@ -178,23 +176,23 @@ def build_frcnn_model(num_classes):
     model.rpn_positive_fraction=0.5
     model.rpn_score_thresh=0.05
     # Box parameters
-    model.box_score_thresh=0.0
-    model.box_nms_thresh=0.5
+    model.box_score_thresh=0.001
+    model.box_nms_thresh=1.0
     model.box_detections_per_img=300
     model.box_fg_iou_thresh=0.5
     model.box_bg_iou_thresh=0.5
     model.box_batch_size_per_image=512
     model.box_positive_fraction=0.25
     return model
-def build_frcnn_model_finetune(num_classes):
-    print("Loading model...")
+def build_frcnn_model_finetune(num_classes,ckpt=None):
+    print("Loading pretrained model from {}...".format(ckpt))
     # load an detection model pre-trained on COCO
     model = torchvision.models.detection.fasterrcnn_resnet50_fpn(pretrained=True)
     try:
         in_features = model.roi_heads.box_predictor.cls_score.in_features
         # replace the pre-trained head with a new one
         model.roi_heads.box_predictor = FastRCNNPredictor(in_features, 61)
-        path = os.path.join('/nvmefs1/andrew.mendez/frcnn_xview.pth')
+        path = os.path.join(ckpt)
         model=load_model_ddp(model,torch.load(path,map_location=torch.device('cpu')))
     except Exception as e:
         print(e)
