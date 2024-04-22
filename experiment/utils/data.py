@@ -346,3 +346,60 @@ if __name__ == '__main__':
             print(len(ann))
             print(ann)
             break
+            
+class CocoDetection(torchvision.datasets.CocoDetection):
+    def __init__(
+        self,
+        backend,
+        root_dir,
+        img_folder,
+        ann_file,
+        transforms,
+        return_masks,
+        catIds=[],
+    ):
+        super(CocoDetection, self).__init__(img_folder, ann_file)
+        self.img_folder = img_folder
+        self._transforms = transforms
+        self.prepare = ConvertCocoPolysToMask(return_masks)
+        self.backend = S3Backend(root_dir)
+
+        self.catIds = catIds
+
+        self.catIds = self.coco.getCatIds()
+        '''
+        Remapping to set background class to zero, so can support FasterRCNN models
+        '''
+        self.catIdtoCls = {
+            catId: i+1 for i, catId in zip(range(len(self.catIds)), self.catIds)
+        }
+        self.clstoCatId = {
+            v:k for k,v in self.catIdtoCls.items()
+        }
+        print("self.catIdtoCls: ",self.catIdtoCls)
+
+        self.num_classes = len(list(self.catIdtoCls.values()))+1
+
+    def __getitem__(self, idx):
+        coco = self.coco
+        img_id = self.ids[idx]
+        ann_ids = coco.getAnnIds(imgIds=img_id, catIds=self.catIds)
+        target = coco.loadAnns(ann_ids)
+        path = coco.loadImgs(img_id)[0]["file_name"]
+        img_bytes = BytesIO(self.backend.get(os.path.join(self.img_folder, path)))
+
+        img = Image.open(img_bytes).convert("RGB")
+        # img.save('test.png')
+        image_id = self.ids[idx]
+        target = {"image_id": image_id, "annotations": target}
+        img, target = self.prepare(img, target)
+        if self._transforms is not None:
+            img, target = self._transforms(img, target)
+        # print(target["labels"])
+        target["labels"] = torch.tensor(
+                [self.catIdtoCls[l.item()] for l in target["labels"]], dtype=torch.int64
+            )
+        return img, target
+
+    def __len__(self):
+        return len(self.ids)
